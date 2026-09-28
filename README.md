@@ -23,15 +23,6 @@ This repository contains the analysis scripts used for the manuscript on explain
    - Performs the nine theory-informed exploratory indirect-pathway analyses.
    - Applies bootstrap estimation and FDR adjustment.
 
-## Data
+## Data availability
 
-The original CLHLS data are third-party data and are not included in this repository. Researchers should obtain the required CLHLS 2018 data from the official Peking University Open Research Data Platform under the applicable data-use requirements.
-
-Before running the scripts, set `data_dir` in each script to the local project directory containing the required CLHLS data and generated intermediate files.
-
-## Recommended repository additions before publication
-
-- Add the exact R version used for the final analysis.
-- Record package versions (for example with `sessionInfo()` or `renv`).
-- Add an open-source license appropriate for the project.
-- Archive a release in Zenodo if a persistent DOI is desired.
+The original CLHLS data are third-party data and are not redistributed in this repository. Researchers can apply for and obtain the CLHLS data through the Peking University Open Research Data Platform: https://opendata.pku.edu.cn/CLHLS. The authors had no special access privileges to these data.
