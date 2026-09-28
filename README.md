@@ -29,12 +29,6 @@ The original CLHLS data are third-party data and are not included in this reposi
 
 Before running the scripts, set `data_dir` in each script to the local project directory containing the required CLHLS data and generated intermediate files.
 
-## Public-sharing edits
-
-The public-sharing version was prepared from the authors' final analysis code. Chinese code comments were translated into English, and the local absolute project path was replaced with `path/to/project`. The analytical logic was not intentionally changed.
-
-Some output filenames and console messages may still use the original Chinese text because they are part of the existing workflow rather than code comments. They can be translated separately if a fully English public repository is desired.
-
 ## Recommended repository additions before publication
 
 - Add the exact R version used for the final analysis.
